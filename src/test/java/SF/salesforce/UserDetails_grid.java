@@ -36,7 +36,7 @@ public class UserDetails_grid
 		System.out.println("Salesforce Login succesfully!!!");
 		//driver.navigate().to("http://c.ap5.visual.force.com/apex/Home");
 		//driver.get("https://java-velocity-7507-dev-ed--c.cs90.visual.force.com/apex/Home?core.apexpages.request.devconsole=1");
-		driver.get(System.getproperty("param3"));
+		driver.get(System.getProperty("param3"));
 	}
 
 	@Parameters("browser")
