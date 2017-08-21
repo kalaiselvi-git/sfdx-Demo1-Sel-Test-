@@ -9,6 +9,19 @@
 
   <name>salesforce</name>
   <url>http://maven.apache.org</url>
+	
+<distributionManagement>
+<repository>
+    <id>Test</id>
+    <url>http://localhost:8081/nexus/content/repositories/Test/</url>
+ </repository>
+ <!-- <snapshotRepository>
+    <id>Selenium_Test_Results</id>
+    <url>http://localhost:8081/nexus/content/repositories/Selenium_Test_Results/</url>
+    </snapshotRepository> -->
+   
+ </distributionManagement>
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
