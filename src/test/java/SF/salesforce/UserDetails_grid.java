@@ -43,7 +43,7 @@ public class UserDetails_grid
 	@BeforeTest
 	public void testgrid(String browser) throws MalformedURLException 
 	{
-		String URL = driver.get(System.getProperty("param3"));
+		String URL = System.getProperty("param3");
 		if (browser.equalsIgnoreCase("firefox")) 
 		{
 			System.out.println("Executing on Firefox");
