@@ -154,7 +154,7 @@ else
 	
 		//click Login
 	    //driver.navigate().to("https://java-velocity-7507-dev-ed--c.cs90.visual.force.com/apex/Home?core.apexpages.request.devconsole=1");
-		driver.navigate().to(System.getproperty("param3"));
+		driver.navigate().to(System.getProperty("param3"));
 	driver.findElement(By.name("j_id0:j_id2:j_id5")).click();
 }
 	@Test(priority =1)
