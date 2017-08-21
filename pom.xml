@@ -11,10 +11,10 @@
   <url>http://maven.apache.org</url>
 	
 <distributionManagement>
-<repository>
+<snapshotrepository>
     <id>Test</id>
     <url>http://localhost:8081/nexus/content/repositories/Test/</url>
- </repository>
+ </snapshotrepository>
  <!-- <snapshotRepository>
     <id>Selenium_Test_Results</id>
     <url>http://localhost:8081/nexus/content/repositories/Selenium_Test_Results/</url>
