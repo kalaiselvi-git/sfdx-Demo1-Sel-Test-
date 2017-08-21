@@ -43,7 +43,7 @@ public class UserDetails_grid
 	@BeforeTest
 	public void testgrid(String browser) throws MalformedURLException 
 	{
-		String URL = "https://java-velocity-7507-dev-ed--c.cs90.visual.force.com/apex/Home?core.apexpages.request.devconsole=1";
+		String URL = "https://c.ap4.visual.force.com/apex/Home?core.apexpages.request.devconsole=1";
 		if (browser.equalsIgnoreCase("firefox")) 
 		{
 			System.out.println("Executing on Firefox");
